@@ -3,9 +3,9 @@ import { GraduationCap, Award } from 'lucide-react';
 
 const doctors = [
   {
-    name: 'Dr. Ananya Rao',
-    role: 'Founder & Cosmetic Dentist',
-    creds: ['BDS, MDS - Prosthodontics', '15+ years experience'],
+    name: 'Dr. Beula David',
+    role: 'Founder & Dental Surgeon',
+    creds: ['Regn. No. 27595A', '17+ years experience'],
     img: 'https://images.pexels.com/photos/5214958/pexels-photo-5214958.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {

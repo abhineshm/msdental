@@ -1,4 +1,4 @@
-# Hoodi Dental Studio
+# HMS Family Dental Clinic
 
 Dental clinic website built with Vite + React + TypeScript. Appointment bookings are saved to Supabase.
 

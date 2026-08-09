@@ -85,7 +85,7 @@ export default function About() {
             Dentistry that feels different
           </h2>
           <p className="text-ink-600 mt-4 text-lg leading-relaxed">
-            At Hoodi Dental Studio, we've reimagined the dental visit. Calm interiors, honest advice,
+            At MS Family Dental Clinic, we've reimagined the dental visit. Calm interiors, honest advice,
             and gentle techniques mean you leave smiling — not just with healthier teeth, but with peace of mind.
           </p>
 

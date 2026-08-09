@@ -12,7 +12,7 @@ export default function Footer() {
                 <ToothIcon className="w-5 h-5 text-white" />
               </span>
               <div className="leading-tight">
-                <span className="font-serif text-xl font-semibold text-white">Hoodi Dental</span>
+                <span className="font-serif text-xl font-semibold text-white">MS Family Dental Clinic</span>
                 <span className="block text-[10px] tracking-[0.2em] uppercase text-primary-400">Bangalore</span>
               </div>
             </div>
@@ -63,26 +63,26 @@ export default function Footer() {
             <ul className="space-y-3.5 text-sm">
               <li className="flex gap-3">
                 <MapPin className="w-5 h-5 text-primary-400 shrink-0 mt-0.5" />
-                <span>Hoodi Main Road, Hoodi,<br />Bangalore, Karnataka 560048</span>
+                <span>Basavanna Nagar Main Road, Hoodi,<br />Bangalore, Karnataka 560048</span>
               </li>
               <li className="flex gap-3">
                 <Phone className="w-5 h-5 text-primary-400 shrink-0 mt-0.5" />
-                <a href="tel:+918000000000" className="hover:text-primary-300 transition-colors">+91 80 0000 0000</a>
+                <a href="tel:+919483547455" className="hover:text-primary-300 transition-colors">+91 9483547455</a>
               </li>
               <li className="flex gap-3">
                 <Mail className="w-5 h-5 text-primary-400 shrink-0 mt-0.5" />
-                <a href="mailto:hello@hoodidental.in" className="hover:text-primary-300 transition-colors">hello@hoodidental.in</a>
+                <a href="mailto:hello@hoodidental.in" className="hover:text-primary-300 transition-colors">beulaabhinesh@gmail.com</a>
               </li>
               <li className="flex gap-3">
                 <Clock className="w-5 h-5 text-primary-400 shrink-0 mt-0.5" />
-                <span>Mon–Sat: 9am–8pm<br />Sun: Emergency only</span>
+                <span>Mon–Sun: 10am–9pm</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
-          <p>© {new Date().getFullYear()} Hoodi Dental Studio. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} MS Family Dental Clinic. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-primary-300 transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-primary-300 transition-colors">Terms of Service</a>

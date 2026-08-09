@@ -20,7 +20,7 @@ export default function Hero() {
         <div className="reveal is-visible">
           <span className="inline-flex items-center gap-2 bg-white/70 backdrop-blur border border-primary-200 text-primary-700 text-sm font-medium px-4 py-2 rounded-full shadow-sm">
             <Star className="w-4 h-4 fill-accent-400 text-accent-400" />
-            4.9/5 from 800+ happy patients
+            4.8/5 from happy patients
           </span>
 
           <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-semibold leading-[1.05] text-ink-900 mt-6 text-balance">
@@ -29,7 +29,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg text-ink-600 mt-6 max-w-xl leading-relaxed">
-            Hoodi Dental Studio in Hoodi, Bangalore blends advanced technology with a calm,
+            MS Family Dental Clinic in Hoodi, Bangalore blends advanced technology with a calm,
             patient-first approach — so every visit feels effortless and every smile lasts.
           </p>
 
@@ -52,7 +52,7 @@ export default function Hero() {
           <div className="flex flex-wrap gap-8 mt-10">
             <Stat icon={<ShieldCheck className="w-5 h-5" />} label="Sterilized tools" sub="Hospital-grade safety" />
             <Stat icon={<Clock className="w-5 h-5" />} label="Same-day visits" sub="Emergency slots open" />
-            <Stat icon={<Star className="w-5 h-5" />} label="15+ years" sub="Trusted in Hoodi" />
+            <Stat icon={<Star className="w-5 h-5" />} label="17+ years" sub="Trusted in Hoodi" />
           </div>
         </div>
 
@@ -60,7 +60,7 @@ export default function Hero() {
         <div className="relative reveal is-visible" style={{ animationDelay: '0.15s' }}>
           <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl shadow-primary-900/20 aspect-[4/5]">
             <img
-              src="https://images.pexels.com/photos/3779705/pexels-photo-3779705.jpeg?auto=compress&cs=tinysrgb&w=900"
+              src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlX4JmG5qUXzlKbwh6yO-HRro7EszmcxuWmhU8dQ--8yxp0wH1ruJ_X_LayFzr0DFfRVlIU6tm7jXKKAmwj3LKxzBCycAqqLv2tqJ7TQgN3VXCKTvYHvaQjsvKt3Y1jDPSMz_BE1Q=s1360-w1360-h1020-rw"
               alt="Dentist caring for a smiling patient"
               className="w-full h-full object-cover"
               loading="eager"

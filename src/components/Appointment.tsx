@@ -89,8 +89,8 @@ export default function Appointment() {
 
           <div className="mt-10 space-y-5">
             <InfoRow icon={<MapPin className="w-5 h-5" />} title="Visit us" lines={['Hoodi Main Road, Hoodi', 'Bangalore, Karnataka 560048']} />
-            <InfoRow icon={<Phone className="w-5 h-5" />} title="Call us" lines={['+91 80 0000 0000', 'Mon–Sat, 9am–8pm']} />
-            <InfoRow icon={<Clock className="w-5 h-5" />} title="Clinic hours" lines={['Mon – Fri: 9:00 AM – 8:00 PM', 'Sat: 9:00 AM – 6:00 PM', 'Sun: Closed (emergencies on call)']} />
+            <InfoRow icon={<Phone className="w-5 h-5" />} title="Call us" lines={['+91 9483547455', 'Mon–Sun, 10am–9pm']} />
+            <InfoRow icon={<Clock className="w-5 h-5" />} title="Clinic hours" lines={['Mon – Sun: 10:00 AM – 9:00 PM' ]} />
           </div>
         </div>
 
@@ -103,7 +103,7 @@ export default function Appointment() {
               </div>
               <h3 className="font-serif text-2xl font-semibold text-ink-900 mt-5">Request received!</h3>
               <p className="text-ink-600 mt-2 max-w-sm mx-auto">
-                Thank you for choosing Hoodi Dental Studio. Our team will call you shortly to confirm your appointment.
+                Thank you for choosing MS Family Dental Clinic. Our team will call you shortly to confirm your appointment.
               </p>
               <button
                 onClick={() => setStatus('idle')}

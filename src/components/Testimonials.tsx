@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: 'Priya Nair',
     role: 'Koramangala resident',
-    text: 'I used to dread dental visits. Hoodi Dental Studio completely changed that. The team is so gentle and patient — my root canal was genuinely painless!',
+    text: 'I used to dread dental visits. MS Family Dental Clinic completely changed that. The team is so gentle and patient — my root canal was genuinely painless!',
     rating: 5,
   },
   {
@@ -50,7 +50,7 @@ export default function Testimonials() {
         <div ref={ref} className={`reveal ${visible ? 'is-visible' : ''} text-center max-w-2xl mx-auto`}>
           <span className="text-sm font-semibold tracking-[0.2em] uppercase text-primary-600">Patient Stories</span>
           <h2 className="font-serif text-4xl sm:text-5xl font-semibold text-ink-900 mt-3 text-balance">
-            Loved by 800+ smiles
+            Loved by 100s of smiles
           </h2>
           <div className="flex items-center justify-center gap-2 mt-5">
             <div className="flex">

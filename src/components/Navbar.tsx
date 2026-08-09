@@ -35,8 +35,8 @@ export default function Navbar() {
             <ToothIcon className="w-5 h-5 text-white" />
           </span>
           <div className="leading-tight">
-            <span className="font-serif text-xl font-semibold text-ink-900">Hoodi Dental</span>
-            <span className="block text-[10px] tracking-[0.2em] uppercase text-primary-600 font-medium">Bangalore</span>
+            <span className="font-serif text-xl font-semibold text-ink-900">MS Family Dental Clinic</span>
+            <span className="block text-[10px] tracking-[0.2em] uppercase text-primary-600 font-medium">Hoodi, Bangalore</span>
           </div>
         </a>
 
@@ -55,11 +55,11 @@ export default function Navbar() {
 
         <div className="hidden lg:flex items-center gap-3">
           <a
-            href="tel:+918000000000"
+            href="tel:+919483547455"
             className="flex items-center gap-2 text-sm font-medium text-ink-700 hover:text-primary-700 transition-colors"
           >
             <Phone className="w-4 h-4" />
-            <span>+91 80 0000 0000</span>
+            <span>+91 9483547455</span>
           </a>
           <a
             href="#appointment"
