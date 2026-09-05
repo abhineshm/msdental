@@ -3,39 +3,33 @@ import { Star, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'Priya Nair',
-    role: 'Koramangala resident',
-    text: 'I used to dread dental visits. MS Family Dental Clinic completely changed that. The team is so gentle and patient — my root canal was genuinely painless!',
+    name: 'Lokesh Raghuraman',
+    text: 'Had a RCT done here for a nominal price with great guidance by RCT specialist Abhiraj and doctor Beula David. Lab Assistant is also good in coordinating for multiple visit',
     rating: 5,
   },
   {
-    name: 'Rahul Menon',
-    role: 'IT Professional, Hoodi',
-    text: 'Booked an appointment online, got a same-day slot. Cleaning was thorough and the clinic is spotless. This is now my family dentist.',
+    name: 'Shahanur Choudhury',
+    text: 'I had a very good experience at this dental clinic. The RCT treatment was done smoothly and professionally. The doctor was friendly, explained everything clearly, and the pricing was very reasonable. Highly recommended!',
     rating: 5,
   },
   {
-    name: 'Sneha Reddy',
-    role: 'Mom of two',
-    text: 'My kids actually ask to go to the dentist now! Dr. Meera is wonderful with children and the whole clinic feels calming, not clinical.',
+    name: 'Andra Monish',
+    text: 'I recently visited this dental clinic for wisdom teeth extraction. It went smoothly and doctors guided me very well through out the process. Doctors are very responsive.',
     rating: 5,
   },
   {
-    name: 'Arjun Kumar',
-    role: 'Whitefield resident',
-    text: 'Got my implants done here after years of avoiding it. Honest pricing, clear explanations, and results that look completely natural.',
+    name: 'Kamakhya Prasad Mohanty',
+    text: 'I recently visited this dental clinic for a cavity between my tooth. The doctor has explained my tooth condition and the treatment to me in detail. I was very satisfied with the consultation and went ahead with tooth filling. The whole procedure was painless and smooth and i had no difficulty afterwards. Cost of the procedure is very reasonable and they genuinely suggest the treatment that suits your teeth condition. No overcharging and fully transparent. I will highly recommend you to consult in this clinic for your dental conditions.',
     rating: 5,
   },
   {
-    name: 'Divya Sharma',
-    role: 'Teacher, KR Puram',
-    text: 'Whitening treatment exceeded my expectations. The staff explained every step and made sure I was comfortable throughout.',
+    name: 'Prasad Garimilla',
+    text: 'I got 3 molar implants done one each on either sides of jaw as at MS family dental. And 2 bridges on the front. All done perfectly and professionally. They call in experienced specialists depending on the what is required. As good as a multi speciality dental clinic. Economical , efficient and professional. Very Good experience. Dr Beula is kind, friendly and handles very delicately. Charges are reasonable. Explains the problem clearly. Gives realistic solutions. Gets specialists based on the treatment and procedure required. Everything under one roof.',
     rating: 5,
   },
   {
-    name: 'Karthik Bhat',
-    role: 'Marathahalli resident',
-    text: 'Best dental experience in Bangalore. Modern equipment, on-time appointments, and doctors who actually listen. Highly recommend.',
+    name: 'Kumara Vel',
+    text: 'I had an excellent experience with MS Family dental clinic and orthopedic treatment! The entire process was smooth, and the staff was incredibly professional and knowledgeable. My dentist took the time to explain every step of the treatment and made sure I was comfortable throughout. The results have been fantastic, I highly recommend this clinic to anyone considering dental orthopedic care. They truly care about their patients well-being!',
     rating: 5,
   },
 ];
@@ -50,7 +44,7 @@ export default function Testimonials() {
         <div ref={ref} className={`reveal ${visible ? 'is-visible' : ''} text-center max-w-2xl mx-auto`}>
           <span className="text-sm font-semibold tracking-[0.2em] uppercase text-primary-600">Patient Stories</span>
           <h2 className="font-serif text-4xl sm:text-5xl font-semibold text-ink-900 mt-3 text-balance">
-            Loved by 100s of smiles
+            Loved by 100s of   smiles
           </h2>
           <div className="flex items-center justify-center gap-2 mt-5">
             <div className="flex">
@@ -58,8 +52,8 @@ export default function Testimonials() {
                 <Star key={i} className="w-6 h-6 fill-accent-400 text-accent-400" />
               ))}
             </div>
-            <span className="text-ink-700 font-semibold">4.9 / 5</span>
-            <span className="text-ink-500">· 800+ reviews</span>
+            <span className="text-ink-700 font-semibold">4.8 / 5</span>
+            <span className="text-ink-500">· 120+ reviews</span>
           </div>
         </div>
 

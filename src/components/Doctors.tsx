@@ -3,23 +3,35 @@ import { GraduationCap, Award } from 'lucide-react';
 
 const doctors = [
   {
-    name: 'Dr. Beula David',
-    role: 'Founder & Dental Surgeon',
-    creds: ['Regn. No. 27595A', '17+ years experience'],
-    img: 'https://images.pexels.com/photos/5214958/pexels-photo-5214958.jpeg?auto=compress&cs=tinysrgb&w=600',
+    name: 'Dr. Sneha PK',
+    role: 'MDS – Endodontics & Cosmetic Dentistry',
+    creds: ['University Topper, RGUHS', 'Specialized in advanced and microscopic endodontics','Expertised in complex root canal treatments and retreatments','Expertised in composite and ceramic veneers'],
+    img: '/images/DrSneha.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
-    name: 'Dr. Vikram Shetty',
-    role: 'Endodontist & Implantologist',
-    creds: ['BDS, MDS - Endodontics', 'Single-sitting RCT specialist'],
-    img: 'https://images.pexels.com/photos/6234600/pexels-photo-6234600.jpeg?auto=compress&cs=tinysrgb&w=600',
+    name: 'Dr. Abhiraj G',
+    role: 'MDS – Conservative Dentistry & Endodontics',
+    creds: ['Expertised in Root Canal Treatment (RCT), Re-RCT, and management of complex root canal cases', 'Dedicated to providing precise, pain-free, and patient-centered endodontic care'],
+    img: '/images/DrAbhiraj.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
-    name: 'Dr. Meera Iyer',
-    role: 'Orthodontist',
-    creds: ['BDS, MDS - Orthodontics', 'Invisible aligners expert'],
-    img: 'https://images.pexels.com/photos/5407206/pexels-photo-5407206.jpeg?auto=compress&cs=tinysrgb&w=600',
+    name: 'Dr. Naveen',
+    role: 'MDS – Conservative Dentistry & Endodontics',
+    creds: ['University Topper, RGUHS', 'Former Assistant Professor, Vydehi Institute', 'Specialized in advanced endodontics and restorative dentistry', 'Expertised in complex root canal treatments and retreatments'],
+    img: '/images/DrNaveen.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
+  {
+    name: 'Dr. Praveen',
+    role: 'BDS, MDS – Oral and Maxillofacial Surgeon',
+    creds: ['Specialized in surgical management of conditions related to mouth, jaws, face, and oral cavity'],
+    img: '/images/DrPraveen.jpeg?auto=compress&cs=tinysrgb&w=600',
+  }/*,
+  {
+    name: 'Dr. Beula',
+    role: 'Dental Surgeon',
+    creds: ['17 years of experience in general dentistry and preventive care', 'Expertised in patient education and oral health promotion'],
+    img: '/images/DrBeula.jpeg?auto=compress&cs=tinysrgb&w=600',
+  }*/
 ];
 
 export default function Doctors() {

@@ -20,7 +20,7 @@ const reasons = [
   {
     icon: Award,
     title: 'Experienced specialists',
-    desc: 'A team of 5+ specialists with 15+ years of combined experience across all dental fields.',
+    desc: 'A team of specialists with 17+ years of combined experience across all dental fields.',
   },
 ];
 
@@ -73,7 +73,7 @@ export default function About() {
           </div>
 
           <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-white rounded-2xl shadow-2xl px-6 py-4 flex items-center gap-4">
-            <span className="font-serif text-4xl font-semibold text-primary-600">15+</span>
+            <span className="font-serif text-4xl font-semibold text-primary-600">17+</span>
             <span className="text-sm text-ink-600 leading-tight">years caring for<br />smiles in Hoodi</span>
           </div>
         </div>
