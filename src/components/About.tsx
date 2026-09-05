@@ -37,7 +37,7 @@ export default function About() {
             <div className="space-y-4">
               <div className="rounded-3xl overflow-hidden shadow-xl aspect-[3/4]">
                 <img
-                  src="https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  src="/images/patient.jpg?auto=compress&cs=tinysrgb&w=600"
                   alt="Modern dental clinic"
                   className="w-full h-full object-cover"
                   loading="lazy"

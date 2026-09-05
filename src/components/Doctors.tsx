@@ -25,13 +25,13 @@ const doctors = [
     role: 'BDS, MDS – Oral and Maxillofacial Surgeon',
     creds: ['Specialized in surgical management of conditions related to mouth, jaws, face, and oral cavity'],
     img: '/images/DrPraveen.jpeg?auto=compress&cs=tinysrgb&w=600',
-  }/*,
+  },
   {
     name: 'Dr. Beula',
     role: 'Dental Surgeon',
     creds: ['17 years of experience in general dentistry and preventive care', 'Expertised in patient education and oral health promotion'],
-    img: '/images/DrBeula.jpeg?auto=compress&cs=tinysrgb&w=600',
-  }*/
+    img: '/images/DrBeula.jpg?auto=compress&cs=tinysrgb&w=600',
+  }
 ];
 
 export default function Doctors() {
