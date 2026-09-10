@@ -60,7 +60,7 @@ export default function Hero() {
         <div className="relative reveal is-visible" style={{ animationDelay: '0.15s' }}>
           <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl shadow-primary-900/20 aspect-[4/5]">
             <img
-              src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlX4JmG5qUXzlKbwh6yO-HRro7EszmcxuWmhU8dQ--8yxp0wH1ruJ_X_LayFzr0DFfRVlIU6tm7jXKKAmwj3LKxzBCycAqqLv2tqJ7TQgN3VXCKTvYHvaQjsvKt3Y1jDPSMz_BE1Q=s1360-w1360-h1020-rw"
+              src="/images/DrBeulaClinic.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Dentist caring for a smiling patient"
               className="w-full h-full object-cover"
               loading="eager"

@@ -106,7 +106,7 @@ function Social({ href, icon }: { href: string; icon: React.ReactNode }) {
 
 function ToothIcon({ className }: { className?: string }) {
   return (
-    <svg viewBox="0 0 24 24" fill="none" className={className} aria-hidden>
+    <svg viewBox="0 0 24 24" fill="maroon" className={className} aria-hidden>
       <path
         d="M7.5 3C6 3 4.5 4 4 6c-.5 2 0 4 .5 6 .3 1.2.5 2.5.7 4 .2 1.6.6 3.5 1.8 3.5 1.2 0 1.3-1.5 1.5-3 .2-1.3.6-2.5 1.5-2.5s1.3 1.2 1.5 2.5c.2 1.5.3 3 1.5 3 1.2 0 1.6-1.9 1.8-3.5.2-1.5.4-2.8.7-4 .5-2 1-4 .5-6C17.5 4 16 3 14.5 3c-1.2 0-1.8.5-2.5.5S9.7 3 7.5 3Z"
         fill="currentColor"

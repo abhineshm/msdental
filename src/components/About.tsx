@@ -38,14 +38,14 @@ export default function About() {
               <div className="rounded-3xl overflow-hidden shadow-xl aspect-[3/4]">
                 <img
                   src="/images/Patient.jpg?auto=compress&cs=tinysrgb&w=600"
-                  alt="Modern dental clinic"
+                  alt="Dentist with patient"
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />
               </div>
               <div className="rounded-3xl overflow-hidden shadow-xl aspect-square">
                 <img
-                  src="https://images.pexels.com/photos/6627562/pexels-photo-6627562.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  src="/images/ClinicSofa.jpeg?auto=compress&cs=tinysrgb&w=600"
                   alt="Dental tools"
                   className="w-full h-full object-cover"
                   loading="lazy"
@@ -55,15 +55,15 @@ export default function About() {
             <div className="space-y-4 pt-10">
               <div className="rounded-3xl overflow-hidden shadow-xl aspect-square">
                 <img
-                  src="https://images.pexels.com/photos/6627564/pexels-photo-6627564.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt="Dental chair"
+                  src="/images/DrBeulaClinicSolo.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Dentist with patient"
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />
               </div>
               <div className="rounded-3xl overflow-hidden shadow-xl aspect-[3/4]">
                 <img
-                  src="https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  src="/images/DentalClinicFront.jpeg?auto=compress&cs=tinysrgb&w=600"
                   alt="Dentist with patient"
                   className="w-full h-full object-cover"
                   loading="lazy"
