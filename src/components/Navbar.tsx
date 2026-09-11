@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Menu, X, Phone, CalendarCheck } from 'lucide-react';
+import { Menu, X, Phone } from 'lucide-react';
 
 const links = [
   { label: 'Home', href: '#home' },
@@ -61,13 +61,6 @@ export default function Navbar() {
             <Phone className="w-4 h-4" />
             <span>+91 9483547455</span>
           </a>
-          <a
-            href="#appointment"
-            className="inline-flex items-center gap-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-semibold px-5 py-2.5 rounded-full shadow-lg shadow-primary-600/25 transition-all hover:shadow-xl hover:shadow-primary-600/30 hover:-translate-y-0.5"
-          >
-            <CalendarCheck className="w-4 h-4" />
-            Book Appointment
-          </a>
         </div>
 
         <button
@@ -93,16 +86,6 @@ export default function Navbar() {
                 </a>
               </li>
             ))}
-            <li className="pt-2">
-              <a
-                href="#appointment"
-                onClick={() => setOpen(false)}
-                className="flex items-center justify-center gap-2 bg-primary-600 text-white font-semibold px-5 py-3 rounded-xl"
-              >
-                <CalendarCheck className="w-4 h-4" />
-                Book Appointment
-              </a>
-            </li>
           </ul>
         </div>
       )}

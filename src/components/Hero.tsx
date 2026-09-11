@@ -35,10 +35,10 @@ export default function Hero() {
 
           <div className="flex flex-wrap items-center gap-4 mt-8">
             <a
-              href="#appointment"
+              href="tel:+919483547455"
               className="group inline-flex items-center gap-2 bg-primary-600 hover:bg-primary-700 text-white font-semibold px-7 py-4 rounded-full shadow-xl shadow-primary-600/25 transition-all hover:-translate-y-0.5"
             >
-              Book your visit
+              Call to book your visit
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
             <a

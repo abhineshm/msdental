@@ -4,7 +4,6 @@ import Services from '@/components/Services';
 import About from '@/components/About';
 import Doctors from '@/components/Doctors';
 import Testimonials from '@/components/Testimonials';
-import Appointment from '@/components/Appointment';
 import Footer from '@/components/Footer';
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
         <About />
         <Doctors />
         <Testimonials />
-        <Appointment />
       </main>
       <Footer />
     </div>

@@ -36,7 +36,6 @@ export default function Footer() {
                 ['About Us', '#about'],
                 ['Our Doctors', '#doctors'],
                 ['Reviews', '#testimonials'],
-                ['Book Appointment', '#appointment'],
               ].map(([label, href]) => (
                 <li key={href}>
                   <a href={href} className="hover:text-primary-300 transition-colors">{label}</a>

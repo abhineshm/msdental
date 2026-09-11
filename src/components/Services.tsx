@@ -8,7 +8,6 @@ import {
   Baby,
   Scan,
   Crown,
-  ArrowUpRight,
 } from 'lucide-react';
 
 const services = [
@@ -103,12 +102,6 @@ function ServiceCard({
       </div>
       <h3 className="font-serif text-xl font-semibold text-ink-900 mt-5">{title}</h3>
       <p className="text-sm text-ink-600 mt-2 leading-relaxed">{desc}</p>
-      <a
-        href="#appointment"
-        className="inline-flex items-center gap-1 text-sm font-semibold text-primary-600 mt-4 opacity-0 group-hover:opacity-100 transition-opacity"
-      >
-        Book this <ArrowUpRight className="w-4 h-4" />
-      </a>
     </div>
   );
 }
