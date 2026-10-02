@@ -27,6 +27,12 @@ const doctors = [
     img: '/images/DrPraveen.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
+    name: 'Dr. Azhar Korath',
+    role: 'MDS (Orthodontics And Dentofacial Orthopedics)',
+    creds: ['Specialized in orthodontic treatment and dentofacial orthopedics'],
+    img: '/images/DrAzhar.jpeg?auto=compress&cs=tinysrgb&w=600',
+  },
+  {
     name: 'Dr. Beula',
     role: 'Dental Surgeon',
     creds: ['17 years of experience in general dentistry and preventive care', 'Expertised in patient education and oral health promotion'],
