@@ -15,6 +15,12 @@ const doctors = [
     img: '/images/DrAbhiraj.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
+    name: 'Dr. Shahul Hameed Sattar',
+    role: 'BDS, MDS (Prosthodontics) DBOCI (USA)',
+    creds: ['Fellow & Dilplomat Implantology-BOCI (Sweden) Cert. Implant Dentistry Maxicourse (AAID - USA)  '],
+    img: '/images/DrShahul.jpeg?auto=compress&cs=tinysrgb&w=600',
+  },
+  {
     name: 'Dr. Naveen',
     role: 'MDS – Conservative Dentistry & Endodontics',
     creds: ['University Topper, RGUHS', 'Former Assistant Professor, Vydehi Institute', 'Specialized in advanced endodontics and restorative dentistry', 'Expertised in complex root canal treatments and retreatments'],
